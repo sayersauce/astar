@@ -1,6 +1,6 @@
 # JavaScript A* Pathfinding Algorithm
 
-This is a JavaScript implementation of the [A*][astar] search algorithm. It uses the HTML5 canvas to display the graph and show the pathfinding. This implementation uses the [Manhattan Distance][manhat] heuristic but could be modified to use another heuristic. It uses one list instead of two for the implementation of open list and closed list. Where the closed list is replaced with a bit on each node. It could be modified to use a Priority Queue or Binary Heap to become faster.
+This is a JavaScript implementation of the [A*][astar] search algorithm. It uses the HTML5 canvas to display the graph and show the pathfinding. This implementation uses the [Manhattan Distance][manhat] heuristic but could be modified to use another heuristic. It uses one list instead of two for the implementation of open list and closed list. Where the closed list is replaced with a bit on each node. It could be modified to use a Priority Queue or Binary Heap to become faster. [Try it out here.][demo]
 
 ## Example
 <img src="./example.png">
@@ -16,4 +16,5 @@ This is a JavaScript implementation of the [A*][astar] search algorithm. It uses
 
 [astar]: https://en.wikipedia.org/wiki/A*_search_algorithm
 [manhat]: https://en.wikipedia.org/wiki/Taxicab_geometry
+[demo]: https://max.lat/astar
 [license]: https://choosealicense.com/licenses/mit/
